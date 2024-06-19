@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Titillium Web", sans-serif;  
+  
+    text-align: center;
+    align-content: center;
+  }
+  
+  h1 {
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 4000;
+    font-size: 6rem;
+    line-height: 1.2;
+  }
+  
+  h1 span {
+    color: #6a14ff;
+  }
+  
+  p {
+    font-weight: 500;   
+    font-size: 1.50rem;
+    margin-bottom: 4.5rem;
+  }
+  
+  a {
+    font-weight: 600;
+    color: white;
+    background-color: #6a14ff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+  
+    border-radius: 0.2rem;
+  
+    transition: background-color 300ms;
+  }
+  
+  a:hover {
+    background-color: #FA6101;
+  }
+
+  #bg-image {
+    background-image: url("img/retro-4237850_1280.jpg");
+  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    opacity: 0.3;
+  
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    }
+  
+  @media (width <40rem){
+    html {
+      font-size: 70%;
+    }
+  }
+  
+  h1, p, a {
+    animation: appear 1s backwards;
+  }
+  
+  h1 {
+    animation-delay: 0.2s;
+  }
+  
+  p {
+    animation-delay: 0.9s;
+  }
+  
+  a {
+    animation-delay: 1.6s;
+  }
+  
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+  }
