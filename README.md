@@ -8,33 +8,28 @@
 
 ### 📌 Linguagens utilizadas:
 
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)<br>
+![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+<br>
 
 ### 📌 Editor utilizado:
 
-Front-end Editor
+https://www.fronteditor.dev
+
+Para utilizar basta acessar o link e desenvolver seus códigos. Este editor permite a vinculação automática do HTML e CSS, sem necessidade de linkar um ao outro.
 
 <br>
 
-### Projeto criado na live "Zero a Programação" da Rocketseat. 👾
+### 📌 Proposta do projeto:
 
-- 📑 Tenho 23 anos e mesmo com pouca idade já sou professor do Estado de São Paulo, trabalhando com Apoio à Tecnologia e Inovação para alunos e professores.
-- 📔 Sou formado em Ciências Sociais pela Universidade Estadual Paulista - UNESP | Campus de Marília - SP.
-- 📚 **Estou cursando Análise e Desenvolvimento de Sistemas pela Universidade de Marília - UNIMAR.**
-- ⚡ Atualmente estou em transição de carreira, buscando na Tecnologia o sentido que tanto procuro para completa realização pessoal.
-- 👾 Nesta página você encontrará um iniciante extremamente organizado e focado, com o princípio de compartilhar tudo que está aprendendo.
+A proposta apresentada pela Rocketseat, em sua live, foi a uilização do Front-end Editor para compreender princípios básicos e inicias do HTML e CCSS, sem utilização do JavaScript. Decidi aplicar os conceitos simulando um site que está vendendo um curso de Algoritmo e Lógica de Programação, linkando o contato do cliente com a empresa via WhatsApp.
 
 <br>
 
-<div style="display: flex;"><img width="50%" src="https://github-readme-stats.vercel.app/api?username=danvasquesc&show_icons=true&theme=codeSTACKr"></div>
+### 📌 Visualizar meu projeto:
 
-<br>
+https://danvasquesc.github.io/zero-a-programacao-rocketseat/
 
 ---
 
 ### Feito por [Dan!](https://github.com/danvasquesc) ✨
-
-
-
-
-https://danvasquesc.github.io/zero-a-programacao-rocketseat/
