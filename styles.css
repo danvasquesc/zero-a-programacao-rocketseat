@@ -40,10 +40,10 @@ a {
   #bg-image {
     position: absolute;
     inset: 0;
-    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-conexoes-com-design-de-estrutura-abstrata_1048-12861.jpg?t=st=1718818475~exp=1718822075~hmac=21461907289292640010cf0df70d0e0b2b9d4a99b6334cf244e4f133a6b9f3a5&w=826");
+    background-image: url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg");
   
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.3;
     z-index: -1;
