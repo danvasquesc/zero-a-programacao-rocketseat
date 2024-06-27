@@ -1,83 +1,79 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: "Titillium Web", sans-serif;  
+  background-color: black;
+  font-family: "Titillium Web", sans-serif;
+  color: white;  
+  text-align: center;
+  align-content: center;
+}
   
-    text-align: center;
-    align-content: center;
-  }
+h1 {
+  font-family: "Bruno Ace SC", sans-serif;
+  font-size: 4rem;
+  line-height: 2;
+}
   
-  h1 {
-    font-family: "Bruno Ace SC", sans-serif;
-    font-weight: 4000;
-    font-size: 5.5rem;
-    line-height: 1.2;
-  }
+h1 span {
+  color: #6a14ff;
+}
   
-  h1 span {
-    color: #6a14ff;
-  }
+p {   
+  font-size: 1.25rem;
+  margin-bottom: 4.5rem;
+}
   
-  p {
-    font-weight: 500;   
-    font-size: 1.50rem;
-    margin-bottom: 4.5rem;
-  }
+a {
+  background-color: #6a14ff;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
   
-  a {
-    font-weight: 600;
-    color: white;
-    background-color: #6a14ff;
-    text-decoration: none;
-    padding: 1rem 2rem;
-  
-    border-radius: 0.2rem;
-  
-    transition: background-color 300ms;
-  }
+  transition: background-color 400ms
+}
   
   a:hover {
     background-color: #FA6101;
   }
 
   #bg-image {
+    position: absolute;
+    inset: 0;
     background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-conexoes-com-design-de-estrutura-abstrata_1048-12861.jpg?t=st=1718818475~exp=1718822075~hmac=21461907289292640010cf0df70d0e0b2b9d4a99b6334cf244e4f133a6b9f3a5&w=826");
   
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-  
     opacity: 0.3;
-  
-    position: absolute;
-    inset: 0;
     z-index: -1;
+
     }
   
-  @media (width <40rem){
-    html {
-      font-size: 70%;
-    }
+@media (width < 40rem) {
+  html {
+    font-size: 70%;
   }
+}
   
-  h1, p, a {
-    animation: appear 1s backwards;
-  }
+h1, p, a {
+  animation: appear 1s backwards;
+}
   
-  h1 {
-    animation-delay: 0.2s;
-  }
+h1 {
+  animation-delay: 0.2s;
+}
   
-  p {
-    animation-delay: 0.9s;
-  }
+p {
+  animation-delay: 0.8s;
+}
   
-  a {
-    animation-delay: 1.6s;
+a {
+  animation-delay: 1.6s;
+}
+   
+@keyframes appear {
+  0% {
+    opacity: 0;
   }
-  
-  @keyframes appear {
-    0% {
-      opacity: 0;
-    }
-  }
+}
