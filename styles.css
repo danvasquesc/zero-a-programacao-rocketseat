@@ -1,162 +1,78 @@
 body {
   background-color: black;
-  color: white;
-  font-family: "Abel", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  color: white;  
   text-align: center;
   align-content: center;
 }
 
-#atencao {
-  background-color: red;
-  font-size: 1.5rem;
-  padding: 0rem 2rem;
-  border-radius: 0.3rem;
-  line-height: 1.2;
-  margin-bottom: 3.5rem;
-
-  left: 50%;
-
-  animation: piscar 2.5s infinite; 
+h1 {
+  font-family: "Bruno Ace SC", sans-serif;
+  font-size: 4rem;
+  line-height: 2;
 }
 
-@keyframes piscar {
-  0% {
-    opacity: 1;
+h1 span {
+  color: #6a14ff;
+}
+
+p {   
+  font-size: 1.25rem;
+  margin-bottom: 4.5rem;
+}
+  
+a {
+  background-color: #6a14ff;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+
+  transition: background-color 400ms
+}
+  
+  a:hover {
+    background-color: #FA6101;
   }
-  50% {
-    opacity: 0.5;
+
+  #bg-image {
+    position: absolute;
+    inset: 0;
+    background-image: url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+
+    }
+
+@media (width < 40rem) {
+  html {
+    font-size: 70%;
   }
-  100% {
-    opacity: 1;
-  }
+}
+
+h1, p, a {
+  animation: appear 1s backwards;
 }
 
 h1 {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 3rem;
-  line-height: 0.9;
-  margin-bottom: 1.8rem;
+  animation-delay: 0.2s;
 }
 
 p {
-  font-size: 1.3rem;
-  margin-bottom: 1.8rem;
+  animation-delay: 0.8s;
 }
 
-#pdf1, #pdf2 {
-  background-color: blueviolet;
-  color: white;
-  font-size: 0.9rem;
-  text-decoration: none;
-
-  margin-bottom: 1.8rem;
-  border-radius: 0.3rem;
-  padding: 1rem 2rem;
-
-  margin: 0.5rem;
-  line-height: 2;
-
-  transition: background-color 400ms
-
+a {
+  animation-delay: 1.6s;
 }
 
-#envio1, #envio2 {
-  background-color: blueviolet;
-  color: white;
-  font-size: 0.8rem;
-  text-decoration: none;
-
-  margin-bottom: 1.8rem;
-  border-radius: 0.3rem;
-  padding: 1rem 2rem;
-
-  margin: 0.5rem;
-
-  transition: background-color 400ms
-
-}
-
-#pdf1:hover {
-    background-color: #11dbff;
+@keyframes appear {
+  0% {
+    opacity: 0;
   }
-
-#pdf2:hover {
-    background-color: #11dbff;
-  }
-
-#envio1:hover {
-    background-color: #11dbff;
-  }
-
-#envio2:hover {
-    background-color: #11dbff;
-  }
-
-
-
-
-
- /* #pdf1 a {
-  background-color: rgb(8, 186, 186);
-  float: left; 
-  padding: 0.6rem 1.3rem; 
-  vertical-align: middle; 
-  color:white;
-  border-radius: 0.3rem; 
-  font-size: 1.3rem; 
-  text-decoration:none;
-
-  margin: 0rem 0.9rem;
-
-
-
-}
-
-#pdf2 {
-  background-color: rgb(8, 186, 186);
-  float: left; 
-  padding: 0.6rem 1.3rem; 
-  vertical-align: middle; 
-  color:white;
-  border-radius: 0.3rem; 
-  font-size: 1.3rem; 
-  text-decoration:none;
-
-  margin: 0rem 0.9rem;
-
-
-}
-
-#envio1 {
-
-    background-color: rgb(8, 186, 186);
-  float: left; 
-  padding: 0.6rem 1.3rem; 
-  vertical-align: middle; 
-  color:white;
-  border-radius: 0.3rem; 
-  font-size: 1.3rem; 
-  text-decoration:none;
-
-  margin: 0rem 0.9rem;
-
-}
-
-#envio2 {
-
-  background-color: rgb(8, 186, 186);
-  float: left; 
-  padding: 0.6rem 1.3rem; 
-  vertical-align: middle; 
-  color:white;
-  border-radius: 0.3rem; 
-  font-size: 1.3rem; 
-  text-decoration:none;
-
-  margin: 0rem 0.9rem;
-
-} */
-
-#bg-image {
-
-}
