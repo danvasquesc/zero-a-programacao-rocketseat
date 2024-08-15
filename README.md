@@ -2,7 +2,7 @@
 
 ### 📌 Proposta do projeto:
 
-A proposta apresentada pela Rocketseat na live "Zero a Programação" foi a utilização da editor 'Front-end Editor' para compreender princípios básicos e inicias do HTML e CCSS. Decidi aplicar os conceitos simulando um site que está vendendo um curso de Algoritmo e Lógica de Programação, linkando o contato do cliente com a empresa via WhatsApp.
+A proposta apresentada pela Rocketseat na live "Zero a Programação" foi a utilização do editor 'Front-end Editor' para compreender princípios básicos e inicias do HTML e CCSS. Decidi aplicar os conceitos simulando um site que está vendendo um curso de Algoritmo e Lógica de Programação, linkando o contato do cliente com a empresa via WhatsApp.
 
 <br>
 
