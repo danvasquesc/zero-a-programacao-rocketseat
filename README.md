@@ -21,9 +21,9 @@ O benefício deste editor é permitir a vinculação automática do HTML e CSS, 
 
 <br>
 
-### 📌 Visualizar meu projeto:
+### 📌 Visualizar o projeto:
 
-[Landing Page](https://danvasquesc.github.io/zero-a-programacao-rocketseat)
+[Clique aqu!](https://danvasquesc.github.io/zero-a-programacao-rocketseat)
 
 ---
 
