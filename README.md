@@ -8,16 +8,9 @@ A proposta apresentada pela Rocketseat na live "Zero a Programação" foi a util
 
 ### 📌 Linguagens utilizadas:
 
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
-![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-<br>
-
-### 📌 Editor utilizado:
-
-![Front-end Editor](https://img.shields.io/badge/Front_end_Editor-6eff51?style=for-the-badge&logo=front%20end%20editor&logoColor=white)
-
-O benefício deste editor é permitir a vinculação automática do HTML e CSS, sem necessidade de linkar o CSS no HTML. Entretanto, para criação de uma page no github, será necessário linkar no documento index.html.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Front-end Editor](https://img.shields.io/badge/Front%20end%20Editor-6eff51?style=for-the-badge&logo=front-end-editor&logoColor=white)
 
 <br>
 
